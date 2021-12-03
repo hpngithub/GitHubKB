@@ -1,29 +1,30 @@
 ## Image source
 
-`https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png`
+`https://github.com/hpngithub/GitHubKB/blob/main/Documents/MarkDown/Image/starship.jpg`
 
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png)
+ <img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/MarkDown/Image/starship.jpg" width="400x"/>
 
 
 ## Try resize it!
+### >>>>> DISCONTINUED START FROM BELOW <<<<<
+- `![](https://github.com/hpngithub/GitHubKB/blob/main/Documents/MarkDown/Image/starship.jpg | width=100)`
+  - ![](https://github.com/hpngithub/GitHubKB/blob/main/Documents/MarkDown/Image/starship.jpg | width=100) 
 
-- `![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)`
-  - ![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
+- `![](https://github.com/hpngithub/GitHubKB/blob/main/Documents/MarkDown/Image/starship.jpg =250x250)`
+  - ![](https://github.com/hpngithub/GitHubKB/blob/main/Documents/MarkDown/Image/starship.jpg =250x250) 
+### >>>>> DISCONTINUED END ABOVE <<<<<
 
-- `![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png =250x250)`
-  - ![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png =250x250)
-
-- `![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png)`  
+- `![](https://github.com/hpngithub/GitHubKB/blob/main/Documents/MarkDown/Image/starship.jpg)`  
   - Copy `<img>` in browser DevTools. Replace `![](url)` to `<img>`. Add width(and height) attr.
-  - `<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />`
-  - <img src="https://camo.githubusercontent.com/331400aee821efda2e36ee9b3bc8bce93b975109/68747470733a2f2f6779617a6f2e636f6d2f65623563353734316236613961313663363932313730613431613439633835382e706e67" alt="" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+  - `<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/MarkDown/Image/starship.jpg" width="200" height="400" />`
+  - <img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/MarkDown/Image/starship.jpg" alt="" data-canonical-src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/MarkDown/Image/starship.jpg" width="200" height="400" />
 
 ## MY SVG Info
 - For GitHub wiki pages, this syntax works: (remember the px)
 
-    ```<img src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="100px"/>```
+    ```<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/MarkDown/Image/starship.jpg" width="100px"/>```
  
-    <img src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="100px"/>
+    <img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/MarkDown/Image/starship.jpg" width="100px"/>
 
 ## Other information
 
