@@ -13,5 +13,5 @@ You will see below software url, which will help create the Markup File.
 <img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/MarkDown/Image/MouImage.png?raw=true" width="150" height="150"/>
 
 - MarkDown List - https://www.markdownguide.org/tools/
-<img src="https://en.wikipedia.org/wiki/Markdown#/media/File:Markdown-mark.svg" width="150" height="150"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" width="150" height="150"/>
 
