@@ -1,6 +1,9 @@
 # ABOUT
-At this folder your will found guide obtain from web and below url that provide software to help build MarkDown readme file.
-
+At this folder your will found guide obtain from web, that is recommend to use it covers everything. Also if like to see github version, click on below urls.
+- *_Github Basic formatting Syntax Guide = https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax_*
+- *_Github Organized data with Table Guide = https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables_*
+- *_Github Flavored Markdown Spec by John MacFarlane = https://github.github.com/gfm/_*
+ 
 #
 ## Application List for References
 
