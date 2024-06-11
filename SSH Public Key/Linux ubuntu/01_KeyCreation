@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# Create the private public key command, replace <> with approriate informaton:
+$ ssh-keygen -t rsa -b 4096 -f /home/<YOURUSERNAME>/.ssh/Github>
+
+# ls all the file in .ssh folder using below command:
+$ ls -all ~/.ssh/
+
+# use below command to view your private key: [DO NOT SHARE OR SHOW TO 3RD PERSON THIS KEY TO AVOID SECURITY BRECH OR HACK]
+# Note : Private key is "Github" & Public is "Github.pub".
+$ cat ~/.ssh/Github
+
+# use below command to view your private key: [ONLY SHARE OR SHOW TO TRUSTED DEVICE OR PERSON TO AVOID SECURITY BRECH OR HACK]
+#  Note : Public Key is "Github.pub"
+$ cat ~/.ssh/Github.pub
+

@@ -1,0 +1,24 @@
+#!/bin/sh
+
+$ echo "#My SSH Script
+/usr/bin/keychain $HOME/.ssh/Github
+source $HOME/.keychain/$HOSTNAME-sh
+" >> ~/.bashrc
+
+$ echo "Host github
+      HostName github.com
+      User git
+      IdentityFile ~/.ssh/Github" >> ~/.ssh/config
+
+# Replace user name and with your own.
+$ git config --global <your github user.name>
+$ git config --global <your github user.email>
+
+# Enable github bool option
+$ git config --bool branch.master.sync true
+$ git config --bool branch.master.syncNewFiles true
+$ git config --bool branch.main.sync true
+$ git config --bool branch.main.syncNewFiles true
+
+#Create Github Account Directory
+$ mkdir -m 755 ~/Git
