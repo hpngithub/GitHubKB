@@ -4,13 +4,13 @@
 <img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/1.png" width="400x"/>
 
 3. In the upper-right corner of any page, click your profile photo, then click Settings.
-<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/2.png" width="400x"/>
+<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/2.png" width="200x"/>
 
 4. In the left panel under "Access" section of the sidebar, click on SSH and GPG keys.
-<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/3.png" width="400x"/>
+<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/3.png" width="200x"/>
 
 5. Click New SSH key or Add SSH key.
-<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/4.png" width="400x"/>
+<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/4.png" width="800x"/>
     
 6. In "Add new SSH Key"section, follow as define below:
 
