@@ -17,7 +17,7 @@
     * "Title" field : add a descriptive label for the new key. For example, if you're using a personal laptop, you might call this key "Personal laptop".
     * "Key Type" dropdown : Choose Authentication Key as default
     * "Key" field :  paste your public key. 
-<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/6.png" width="400x"/>
+<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/5.png" width="400x"/>
 
 7. Click Add SSH key.
 8. If prompted, confirm access to your account on GitHub. 
