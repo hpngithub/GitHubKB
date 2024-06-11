@@ -18,7 +18,7 @@ By default, the system will save the keys to [your home directory]/.ssh/id_rsa. 
 8. Open your file explorer.  You can now navigate to the hidden “.ssh” directory in your home folder. You should see two new files. The identification is saved in the id_rsa file and the public key is labeled id_rsa.pub. This is your SSH key pair. They are both saved in plain text.
 <img src="https://github.com/hpngithub/GitHubKB/blob/main/SSH%20Public%20Key/Windows/Images/S7.png" width="400x"/>
 
-9. Next to use your new keys with .pub to view and copy the key to git hub using ["Add SSH Public Key Guide"] (https://github.com/hpngithub/GitHubKB/blob/main/Documents/Add SSH Public Key Guide.md "Visit Add SSH Public Key Guide!").
+9. Next to use your new keys with .pub to view and copy the key to git hub using ["Add SSH Public Key Guide"](https://github.com/hpngithub/GitHubKB/blob/main/Documents/Add%20SSH%20Public%20Key%20Guide.md/ "Visit Add SSH Public Key Guide!").
 
 ####  SOURCES :
 
