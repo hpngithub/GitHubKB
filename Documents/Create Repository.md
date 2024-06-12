@@ -1,0 +1,24 @@
+# CREATE REPOSITORY
+**1.** In the upper-right corner of any page, select + , then click New repository.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/01cr.png?raw=true" width="400x"/>
+
+**2.** Next fill the form, as define below:
+
+* In the **Repository name** box, type ```<YOUR DESIRE SCRIPT, APPLICATION OR PROJECT NAME>```.
+
+* In the **Description** box, type a short description.
+
+* Select **Radio Button** whether your repository will be **Public** or **Private**.
+
+* Select **Box** of **Add a README file**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/02cr.png?raw=true" width="400x"/>
+
+**3.** Click on **button** ```Create repository```.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/03cr.png?raw=true" width="400x"/>
+
+
+#### SOURCE
+* **Github Repo Create Guide :** https://docs.github.com/en/get-started/start-your-journey/hello-world
