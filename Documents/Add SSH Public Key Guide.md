@@ -1,29 +1,38 @@
 # ADD SSH PUBLIC KEY TO GITHUB WEBSITE GUIDE
 
-1. Once copy SSH public key to your clipboard, go to github.com ->Login or Signup.
-<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/1.png" width="400x"/>
+**1.** Once copy SSH public key to your clipboard, go to github.com -> Login or Signup.
 
-3. In the upper-right corner of any page, click your profile photo, then click Settings.
-<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/2.png" width="200x"/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/1.png" width="400x"/>
 
-4. In the left panel under "Access" section of the sidebar, click on SSH and GPG keys.
-<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/3.png" width="200x"/>
+**2.** In the upper-right corner of any page, click your profile photo, then click Settings.
 
-5. Click New SSH key or Add SSH key.
-<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/4.png" width="800x"/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/2.png" width="200x"/>
+
+**3.** In the left panel under "Access" section of the sidebar, click on SSH and GPG keys.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/3.png" width="200x"/>
+
+**4.** Click New SSH key or Add SSH key.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/4.png" width="800x"/>
     
-6. In "Add new SSH Key"section, follow as define below:
+**5.** In "Add new SSH Key"section, follow as define below:
 
-    * "Title" field : add a descriptive label for the new key. For example, if you're using a personal laptop, you might call this key "Personal laptop".
-    * "Key Type" dropdown : Choose Authentication Key as default
-    * "Key" field :  paste your public key. 
-<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/5.png" width="600x"/>
+- **Title:** *_Add a descriptive label for the new key. For example, if you're using a personal laptop, you might call this key "Personal laptop"._*
 
-7. Click Add SSH key.
-8. If prompted, confirm access to your account on GitHub. 
+- **Key type (Dropdown):** *_Choose **"Authentication Key"** as default._*
+
+- **Key (Box):** *_paste your public key._*
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/hpngithub/GitHubKB/blob/main/Documents/Images/5.png" width="600x"/>
+
+
+**6.** Click Add SSH key. *_If prompted, confirm access to your account on GitHub._*
     
 
-####  SOURCES :
+
+###### SOURCES :
 
 * Github SSH Adding Guide : https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?platform=linux
 
