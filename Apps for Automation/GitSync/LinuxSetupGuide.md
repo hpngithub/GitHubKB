@@ -8,8 +8,8 @@
 
 ## INSTRUCTION
 **01.** Open the Ubuntu Terminal.
+
 **02.** Go the clone repository folder as per [Linux Ubuntu Repository Cloning Guide](https://github.com/hpngithub/GitHubKB/blob/main/Documents/Linux%20Ubuntu%20Repository%20Cloning%20Guide.md).
     
-    ...My Repo : PythonBCProject
+> ${\color{green} My Repo : PythonBCProject}$
 
-    <span style="color:blue">some *blue* text</span>.
