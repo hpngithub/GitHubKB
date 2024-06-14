@@ -33,9 +33,18 @@
     $ chmod 775 01_KeyCreation 02_InstallGit&Keychain 03_ConfigGit
 
 
-**06.** Next run the below command to initiate script to obtain keys.
+**06.** Next run the below commands in order, to initiate all above scripts and obtain keys.
 
-    $ sh 01_KeyCreation
+     $ sh 02_InstallGit&Keychain
+     $ sh 03_ConfigGit
+     $ sh 01_KeyCreation
+*_:exclamation: Note : 02_InstallGit&Keychain script will help install Git and Keychain software._*
+
+*_:exclamation: Note : 03_ConfigGit script will configure Git._*
+
+*_:exclamation: Note : 01_KeyCreation script will help create both Private & Public key and disclose on your screen._*
+
+<br>
 
 **07.** You should see the 2 keys listed is ```private key``` and one is ```public key```, as shown on below
 
@@ -44,8 +53,9 @@
 
 <img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Documents/Images/Exsshkey.png?raw=true" width="500x"/>
 
-**08.** Now copy **Public Key** starting ```ssh-rsa`` to end of paragraph and login to github.com
+**08.** Now copy **Public Key** starting ```ssh-rsa``` to end of paragraph and login to github.com
 
+<br>
 <br>
 
 ## D. LOCALHOST KEY TO GITHUB.COM TO ACCESS REPOSITORY
