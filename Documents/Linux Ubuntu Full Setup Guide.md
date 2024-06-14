@@ -67,32 +67,16 @@
 <br>
 
 ## F. CLONE THE REPOSITORY
-**12.** To clone repository on the terminal, use below command:
+**12.** Follow [Linux Ubuntu Repository Cloning Guide](https://github.com/hpngithub/GitHubKB/blob/main/Documents/Linux%20Ubuntu%20Repository%20Cloning%20Guide.md) to create repository
 
-    $ git clone [YOUR REPOSITORY URL]
-    
-**_*My URL : git@github.com:hpngithub/PythonBCProject.git*_**
-
-**_*My Command : git clone git@github.com:hpngithub/PythonBCProject.git, as shown below image.*_**
-
-<img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Documents/Images/gitclonecmd.png?raw=true" width="500x"/>
-
-**13.** To view and check if clone of repository successfull, use below command:
-
-    $ cd <YOUR REPOSITORY NAME>
-    $ ls -all
-    $ git status
-
-**_*My Repository name is ```PythonBCProject```, as you can see in My url repo path on step 12 above and in below image.*_**
-
-<img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Documents/Images/RepoClonecheck.png?raw=true" width="500x"/>
+* **"Linux Ubuntu Repository Cloning Guide" =** "https://github.com/hpngithub/GitHubKB/blob/main/Documents/Linux%20Ubuntu%20Repository%20Cloning%20Guide.md"
 
 <br>
 
-## G. SETUP ```Git-Sync``TO AUTOMATE GITHUB = LOCALHOST
-**14.** Follow [NAME](URL) to automate Github sync with localhost by using ```git-sync``` file.
+## G. AUTOMATE GITHUB TO LOCALHOST SYNC (OPTIONAL)
+**GIT-SYNC** Follow [LinuxSetupGuide of Git-Sync](https://github.com/hpngithub/GitHubKB/blob/main/Apps%20for%20Automation/GitSync/LinuxSetupGuide.md) to automate Github sync with localhost by using ```git-sync``` file.
 
-* **"NAME" =** "URL"
+* **"LinuxSetupGuide of Git-Sync" =** "https://github.com/hpngithub/GitHubKB/blob/main/Apps%20for%20Automation/GitSync/LinuxSetupGuide.md"
 
 
 
