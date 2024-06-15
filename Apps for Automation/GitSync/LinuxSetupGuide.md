@@ -44,8 +44,10 @@
     $ mkdir Git-Sync
     $ cd Git-Sync
 
-    <img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/03.png?raw=true" width="500x"/>
+<img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/03.png?raw=true" width="500x"/>
 
-**05.** Next give the excuitexecutable permission to ```Git-Sync``` folder, by using below command:
+**05.** After that in ```Git-Sync`` folder download ```git-sync``` script from github directory, by using below command:
 
-    $
+    $ wget https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps/GitSync/git-sync
+
+<img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/04.png?raw=true" width="500x"/>
