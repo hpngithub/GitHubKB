@@ -36,4 +36,16 @@
     ```$ git config --bool branch.main.sync true```
 
     ```$ git config --bool branch.main.syncNewFiles true```
-    <img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/01.png?raw=true" width="500x"/>
+
+    <img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/02.png?raw=true" width="500x"/>
+
+**04.** Next create folder name ```Git-Sync``` and navigate in to the folder, using below command:
+
+    $ mkdir Git-Sync
+    $ cd Git-Sync
+
+    <img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/03.png?raw=true" width="500x"/>
+
+**05.** Next give the excuitexecutable permission to ```Git-Sync``` folder, by using below command:
+
+    $
