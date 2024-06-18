@@ -17,15 +17,14 @@
 **03.** At this time you have 2 options, as shown below:
 
 * **OPTION-A.SKIP :** If you followed [Linux Ubuntu Full Setup Guide : Section-C, Step-6] (https://github.com/hpngithub/GitHubKB/blob/main/Documents/Linux%20Ubuntu%20Full%20Setup%20Guide.md) 
-    + **NOTE : If you like to verify below bloon flag is setup correctly, then can navigate to ```config``` file under "your clone repository folder/.git/" folder and use the ```cat config``` command to verify. 
+    + **NOTE : If you like to verify below bloon flag is setup correctly, then can navigate to ```config``` file under **your clone repository folder/.git/** folder and use the command to verify. 
+        
+        > $ cat config
 
-        ```$ git config --bool branch.master.sync true```
-    
-        ```$ git config --bool branch.master.syncNewFiles true```
-    
-        ```$ git config --bool branch.main.sync true```
-    
-        ```$ git config --bool branch.main.syncNewFiles true```
+        ```branch.master.sync true```
+        ```branch.master.syncNewFiles true```
+        ```branch.main.sync true```
+        ```branch.main.syncNewFiles true```
     
 * **OPTION-B.SETUP BOOL FLAG :** In your home directory, initial below command one after another, as show in below image:
 
