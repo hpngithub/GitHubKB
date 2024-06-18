@@ -51,3 +51,9 @@
     $ wget https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps/GitSync/git-sync
 
 <img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/04.png?raw=true" width="500x"/>
+
+**06.** Now give ```git-sync``` script as executable permission with below command:
+
+    $ chmod -x git-sync
+
+<img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/05.png?raw=true" width="500x"/>
