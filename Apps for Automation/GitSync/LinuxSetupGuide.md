@@ -57,3 +57,34 @@
     $ chmod -x git-sync
 
 <img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/05.png?raw=true" width="500x"/>
+
+**07.** Create the ```AutoSync-Repos.sh``` file and give the excutable permission.
+    
+>    **A.** At this time you should be still in the ```Git-Sync``` directory. In there to create the ```AutoSync-Repos.sh``` , use below command:
+
+>    $ nano Autosync-Repos.sh
+
+> 
+
+
+**08.** Create the ```AutoGitSyncRepo.service``` service file.
+
+
+**09.** Create the ```AutoGitSyncRepo.timer``` service file.
+
+
+**10.** Enable and Start the ```AutoGitSyncRepo.service``` and  ```AutoGitSyncRepo.timer``` services to auto run the ```git-sync``` to sync the Github repository with local repository.
+
+</BR>
+</BR>
+
+#### SOURCES
++ Git-Sync Main : https://github.com/simonthum/git-sync
++ Main Guide : https://www.worthe-it.co.za/blog/2016-08-13-automated-syncing-with-git.html
++Nice Program Understanding : https://en.wikipedia.org/wiki/Nice_(Unix)
++ Added SSH Agent in script : https://serverfault.com/questions/547923/running-ssh-agent-from-a-shell-script
++ Enable Service & Timer Command : https://askubuntu.com/questions/1083537/how-do-i-properly-install-a-systemd-timer-and-service
++ Ubuntu Systemd Service :  https://manpages.ubuntu.com/manpages/bionic/man5/systemd.service.5.html
++ Ubuntu Systemd Unit : https://manpages.ubuntu.com/manpages/bionic/man5/systemd.unit.5.html
++ Ubuntu Systemd timer : https://manpages.ubuntu.com/manpages/bionic/man5/systemd.timer.5.html
++ Systemd Log File : https://stackoverflow.com/questions/37585758/how-to-redirect-output-of-systemd-service-to-a-file + https://www.baeldung.com/linux/redirect-systemd-output-to-file
