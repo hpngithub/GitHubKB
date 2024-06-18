@@ -17,14 +17,17 @@
 **03.** At this time you have 2 options, as shown below:
 
 * **OPTION-A.SKIP :** If you followed [Linux Ubuntu Full Setup Guide : Section-C, Step-6] (https://github.com/hpngithub/GitHubKB/blob/main/Documents/Linux%20Ubuntu%20Full%20Setup%20Guide.md) 
-    + **NOTE : If you like to verify below bloon flag is setup correctly, then can navigate to ```config``` file under **your clone repository folder/.git/** folder and use the command to verify. 
-        
-        $ cat config
-
+    + **NOTE : If you like to verify below bloon flag is setup correctly, then can navigate to ```config``` file under **your clone repository folder/.git/** folder and use the command to verify.
+    +     $ cat config
     ```branch.master.sync true```
+
     ```branch.master.syncNewFiles true```
+
     ```branch.main.sync true```
+
     ```branch.main.syncNewFiles true```
+
+</br>
     
 * **OPTION-B.SETUP BOOL FLAG :** In your home directory, initial below command one after another, as show in below image:
 
@@ -38,6 +41,10 @@
 
     <img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/02.png?raw=true" width="500x"/>
 
+
+</br>
+
+     
 **04.** Next create folder name ```Git-Sync``` and navigate in to the folder, using below command:
 
     $ mkdir Git-Sync
