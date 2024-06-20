@@ -104,8 +104,42 @@
 
     <img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/07.png?raw=true" width="500x"/>
 
+    
 **08.** Create the ```AutoGitSyncRepo.service``` service file.
 
++ **A.** Use below command to create the ```AutoGitSyncRepo.service``` service file
+
+    $ nano AutoGitSyncRepo.service
+
+    <img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/08.png?raw=true" width="500x"/>
+
++ **B.** Update the below text box information with correct path and past in the ```AutoGitSyncRepo.service``` file.
+
+    ```
+    [Unit]
+    Description=Automatically push and pull on repos
+    
+    [Service]
+    Type=simple
+    ExecStart=/bin/sh <FULL PATH WITH of Autosync-Repos.sh FILE>
+    Nice=19
+    StandardOutput=append:<FULL PATH OF .log FILE>
+    StandardError=append:<FULL PATH OF .log FILE>
+    
+    [Install]
+    WantedBy=AutoGitSyncRepo.target
+    
+    ```
+
+    *_ExecStart=/bin/sh `<FULL PATH OF Autosync-Repos.sh FILE>` It is full path to location of Autosync-Repos.sh file_*
+
+    *_StandardOutput=append:`<FULL PATH OF .log FILE>` It is your desire path where do you like have log file created._*
+
+    *_StandardError=append:`<FULL PATH OF .log FILE, IT CAN BE SAME as Above>` It is your desire path where do you like have log file created._*
+
+    <img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/09.png?raw=true" width="500x"/>
+
++ **C.** Next press keyboard shortcut, CTRL+O & CTRL+X to save and Exit.
 
 **09.** Create the ```AutoGitSyncRepo.timer``` service file.
 
