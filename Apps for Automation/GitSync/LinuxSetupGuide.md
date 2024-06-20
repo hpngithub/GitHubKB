@@ -88,7 +88,7 @@
 
     ```
 
-    *_Note You can add as much github repository as you desire. As for my case is only 1 repository, as per image below_*
+    *_Note You can add as much github repository as you desire. As for my case is only 1 repository, as per image below :_*
 
     <img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/06.png?raw=true" width="500x"/>
 
@@ -96,11 +96,13 @@
 
     *_`ssh-add <Key FULL PATH>` Normally in linux, it is /home/yourusername/.ssh/yourkeyname_*
 
-+ **C.** 
++ **C.** Next press keyboard shortcut, CTRL+O & CTRL+X to save and Exit.
 
++ **D.** Now give ```AutoSync-Repos.sh``` script as executable permission with below command:
 
-> 
+    $ chmod -x AutoSync-Repos.sh 
 
+    <img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/07.png?raw=true" width="500x"/>
 
 **08.** Create the ```AutoGitSyncRepo.service``` service file.
 
