@@ -19,12 +19,9 @@
 * **OPTION-A.SKIP :** If you followed [Linux Ubuntu Full Setup Guide : Section-C, Step-6] (https://github.com/hpngithub/GitHubKB/blob/main/Documents/Linux%20Ubuntu%20Full%20Setup%20Guide.md) 
     + **NOTE : If you like to verify below bloon flag is setup correctly, then can navigate to ```config``` file under **your clone repository folder/.git/** folder and use the command to verify.
     +     $ cat config
-    ```branch.master.sync true```
-
+    +    ```branch.master.sync true``` 
     ```branch.master.syncNewFiles true```
-
-    ```branch.main.sync true```
-
+    ```branch.main.sync true``` 
     ```branch.main.syncNewFiles true```
 
 </br>
@@ -66,9 +63,41 @@
 
 **07.** Create the ```AutoSync-Repos.sh``` file and give the excutable permission.
     
->    **A.** At this time you should be still in the ```Git-Sync``` directory. In there to create the ```AutoSync-Repos.sh``` , use below command:
++ **A.** At this time you should be still in the ```Git-Sync``` directory. In there to create the ```AutoSync-Repos.sh``` , use below command:
 
->    $ nano Autosync-Repos.sh
+    $ nano Autosync-Repos.sh
+
++ **B.** Update the below text box information with correct path and past in the ```AutoSync-Repos.sh``` file.
+
+    ``` 
+    #!/bin/sh
+
+    #Repo 1
+    cd <REPO FULL PATH>
+    eval `ssh-agent`
+    ssh-add <Key FULL PATH> 
+    bash <Git-Sync FULL PATH>
+    eval `ssh-agent -k`
+
+    #Repo 2
+    cd <REPO FULL PATH>
+    eval `ssh-agent`
+    ssh-add <Key FULL PATH>
+    bash <Git-Sync FULL PATH>
+    eval `ssh-agent -k`
+
+    ```
+
+    *_Note You can add as much github repository as you desire. As for my case is only 1 repository, as per image below_*
+
+    <img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/06.png?raw=true" width="500x"/>
+
+    *_`cd <REPO FULL PATH>` It is full path to your clone repository_*
+
+    *_`ssh-add <Key FULL PATH>` Normally in linux, it is /home/yourusername/.ssh/yourkeyname_*
+
++ **C.** 
+
 
 > 
 
