@@ -195,7 +195,7 @@
 
     $ systemctl --user status AutoGitSyncRepo.timer
 
-<img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/12q.png?raw=true" width="500x"/>
+<img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/12.png?raw=true" width="500x"/>
 
 </BR>
 </BR>
