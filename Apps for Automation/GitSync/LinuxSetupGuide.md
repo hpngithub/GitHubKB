@@ -143,19 +143,71 @@
 
 **09.** Create the ```AutoGitSyncRepo.timer``` service file.
 
++ **A.** Use below command to create the ```AutoGitSyncRepo.timer``` service file
 
-**10.** Enable and Start the ```AutoGitSyncRepo.service``` and  ```AutoGitSyncRepo.timer``` services to auto run the ```git-sync``` to sync the Github repository with local repository.
+    $ nano AutoGitSyncRepo.timer
+
+    <img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/10.png?raw=true" width="500x"/>
+
++ **B.** copy and past below text in the ```AutoGitSyncRepo.timer``` file.
+
+    ```
+    [Unit]
+    Description=Automatically push and pull on repos
+    
+    [Timer]
+    OnBootSec=1min
+    OnUnitActiveSec=5min
+    
+    [Install]
+    WantedBy=timers.target
+    
+    ```
+
+    <img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/11.png?raw=true" width="500x"/>
+
++ **C.** Next press keyboard shortcut, CTRL+O & CTRL+X to save and Exit.
+
+**10.** Enable and Start the ```AutoGitSyncRepo.service``` and  ```AutoGitSyncRepo.timer``` services in order to run the ```git-sync``` **(Every 5min)** to sync the Github repository with local repository, use all `systemctl_` below command using below commands:
+
+    $ systemctl --user enable <FULL PATH to AutoGitSyncRepo.service>
+
+**_Note: `<FULL PATH to AutoGitSyncRepo.service>` replace with full path of the location of AutoGitSyncRepo.service as indicated in above step 08._**
+
+    $ systemctl --user enable <FULL PATH to AutoGitSyncRepo.timer>
+
+**_Note: `<FULL PATH to AutoGitSyncRepo.timer>` replace with full path of the location of AutoGitSyncRepo.timer as indicated in above step 09._**
+
+    $ systemctl --user start AutoGitSyncRepo.service
+</BR>
+
+    $ systemctl --user start AutoGitSyncRepo.timer
+</BR>
+
+    $ systemctl --user enable AutoGitSyncRepo.service
+</BR>
+
+    $ systemctl --user enable AutoGitSyncRepo.timer
+</BR>
+
+    $ systemctl --user status AutoGitSyncRepo.service
+</BR>
+
+    $ systemctl --user status AutoGitSyncRepo.timer
+
 
 </BR>
 </BR>
 
-#### SOURCES
-+ Git-Sync Main : https://github.com/simonthum/git-sync
-+ Main Guide : https://www.worthe-it.co.za/blog/2016-08-13-automated-syncing-with-git.html
-+Nice Program Understanding : https://en.wikipedia.org/wiki/Nice_(Unix)
-+ Added SSH Agent in script : https://serverfault.com/questions/547923/running-ssh-agent-from-a-shell-script
-+ Enable Service & Timer Command : https://askubuntu.com/questions/1083537/how-do-i-properly-install-a-systemd-timer-and-service
-+ Ubuntu Systemd Service :  https://manpages.ubuntu.com/manpages/bionic/man5/systemd.service.5.html
-+ Ubuntu Systemd Unit : https://manpages.ubuntu.com/manpages/bionic/man5/systemd.unit.5.html
-+ Ubuntu Systemd timer : https://manpages.ubuntu.com/manpages/bionic/man5/systemd.timer.5.html
-+ Systemd Log File : https://stackoverflow.com/questions/37585758/how-to-redirect-output-of-systemd-service-to-a-file + https://www.baeldung.com/linux/redirect-systemd-output-to-file
+--- 
+
+##### SOURCES
++ ##### *_Git-Sync Main : https://github.com/simonthum/git-sync_*
++ ##### *_Main Guide : https://www.worthe-it.co.za/blog/2016-08-13-automated-syncing-with-git.html_*
++ ##### *_Nice Program Understanding : https://en.wikipedia.org/wiki/Nice_(Unix)_*
++ ##### *_Added SSH Agent in script : https://serverfault.com/questions/547923/running-ssh-agent-from-a-shell-script_*
++ ##### *_Enable Service & Timer Command : https://askubuntu.com/questions/1083537/how-do-i-properly-install-a-systemd-timer-and-service_*
++ ##### *_Ubuntu Systemd Service :  https://manpages.ubuntu.com/manpages/bionic/man5/systemd.service.5.html_*
++ ##### *_Ubuntu Systemd Unit : https://manpages.ubuntu.com/manpages/bionic/man5/systemd.unit.5.html_*
++ ##### *_Ubuntu Systemd timer : https://manpages.ubuntu.com/manpages/bionic/man5/systemd.timer.5.html_*
++ ##### *_Systemd Log File : https://stackoverflow.com/questions/37585758/how-to-redirect-output-of-systemd-service-to-a-file + https://www.baeldung.com/linux/redirect-systemd-output-to-file_*
