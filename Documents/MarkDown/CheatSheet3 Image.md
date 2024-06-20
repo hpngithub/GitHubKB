@@ -6,13 +6,13 @@
 
 
 ## Try resize it!
-### >>>>> DISCONTINUED START FROM BELOW <<<<<
+### >>>>> DISCONTINUED : START BELOW <<<<<
 - `![](https://github.com/hpngithub/GitHubKB/blob/main/Documents/MarkDown/Image/starship.jpg | width=100)`
   - ![](https://github.com/hpngithub/GitHubKB/blob/main/Documents/MarkDown/Image/starship.jpg | width=100) 
 
 - `![](https://github.com/hpngithub/GitHubKB/blob/main/Documents/MarkDown/Image/starship.jpg =250x250)`
   - ![](https://github.com/hpngithub/GitHubKB/blob/main/Documents/MarkDown/Image/starship.jpg =250x250) 
-### >>>>> DISCONTINUED END ABOVE <<<<<
+### >>>>> DISCONTINUED : END ABOVE <<<<<
 
 - `![](https://github.com/hpngithub/GitHubKB/blob/main/Documents/MarkDown/Image/starship.jpg)`  
   - Copy `<img>` in browser DevTools. Replace `![](url)` to `<img>`. Add width(and height) attr.
