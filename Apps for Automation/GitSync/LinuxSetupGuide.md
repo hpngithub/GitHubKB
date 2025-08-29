@@ -124,8 +124,8 @@
     Type=simple
     ExecStart=/bin/sh <FULL PATH WITH of Autosync-Repos.sh FILE>
     Nice=19
-    StandardOutput=append:<FULL PATH OF .log FILE>
-    StandardError=append:<FULL PATH OF .log FILE>
+    StandardOutput=append:<FULL PATH OF LOCATION WITH DESIRE NAME OF .log FILE>
+    StandardError=append:<FULL PATH OF LOCATION WITH DESIRE NAME OF .log FILE, IT CAN BE SAME>
     
     [Install]
     WantedBy=AutoGitSyncRepo.target
