@@ -1,4 +1,5 @@
 # Git-Sync Linux Setup Guide
+### Note: This guide work on Ubuntu, Debian & Fedora
 
 + :exclamation: ** Prequesite : **
 
