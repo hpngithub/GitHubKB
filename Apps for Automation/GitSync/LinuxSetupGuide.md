@@ -112,7 +112,7 @@
 
 <mark>$ chmod 644 /home/SysAdmin/.ssh/Github</mark>
 
-<mark><img src="https://github.com/hpngithub/GitHubKB/blob/main/Apps%20for%20Automation/GitSync/Images/08%20Fedora.png?raw=true" Width="500x"/></mark>
+<mark><img src="https://github.com/hpngithub/GitHubKB/blob/main/Apps%20for%20Automation/GitSync/Images/08.Fedora.png?raw=true" Width="500x"/></mark>
 
 
 
