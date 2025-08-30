@@ -108,11 +108,11 @@
     
 **08.** Create the ```AutoGitSyncRepo.service``` service file.
 
-**Note :** Before creating the "Autosync-Repos.sh" file on Fedora Linux, update the permission for private key "Github" using below command:
+<mark>**Note :** Before creating the "Autosync-Repos.sh" file on Fedora Linux, update the permission for private key "Github" using below command:</mark>
 
-$ chmod 644 /home/SysAdmin/.ssh/Github
+<mark>$ chmod 644 /home/SysAdmin/.ssh/Github</mark>
 
-<img src="https://github.com/hpngithub/GitHubKB/blob/main/Apps%20for%20Automation/GitSync/Images/08%20Fedora.png?raw=true" Width="500x"/>
+<mark><img src="https://github.com/hpngithub/GitHubKB/blob/main/Apps%20for%20Automation/GitSync/Images/08%20Fedora.png?raw=true" Width="500x"/></mark>
 
 
 
