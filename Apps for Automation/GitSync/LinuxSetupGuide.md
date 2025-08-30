@@ -115,7 +115,6 @@
 <mark><img src="https://github.com/hpngithub/GitHubKB/blob/main/Apps%20for%20Automation/GitSync/Images/08.Fedora.png?raw=true" Width="500x"/></mark>
 
 
-
 + **A.** Use below command to create the ```AutoGitSyncRepo.service``` service file
 
     $ nano AutoGitSyncRepo.service
@@ -179,11 +178,27 @@
 
 **10.** Enable and Start the ```AutoGitSyncRepo.service``` and  ```AutoGitSyncRepo.timer``` services in order to run the ```git-sync``` **(Every 5min)** to sync the Github repository with local repository, use all `systemctl_` below command using below commands:
 
-    $ systemctl --user enable <FULL PATH to AutoGitSyncRepo.service>
+<mark>**Note :** !!ON FEDORA!! Before start the "Autosync-Repos" service and timer file, use below command to create symlink and reload-daemon in systemd.</mark>
+
+<mark>$ systemctl link --user /Github/Git-sync/AutoGitSyncRepo.service</mark>
+
+<mark>$ systemctl link --user /Github/Git-sync/AutoGitSyncRepo.timer</mark>
+
+<mark>$ systemctl --user daemon-reload</mark>
+
+<mark><img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/12.Fedora.png?raw=true" width="500x"/></mark>
+
+<mark> **SKIP BELOW COMMAND ON FEDORA** </mark>
+
+    $ systemctl --user enable <FULL PATH to AutoGitSyncRepo.service> 
+</BR>
 
 **_Note: `<FULL PATH to AutoGitSyncRepo.service>` replace with full path of the location of AutoGitSyncRepo.service as indicated in above step 08._**
 
+<mark> **SKIP BELOW COMMAND ON FEDORA** </mark>
+        
     $ systemctl --user enable <FULL PATH to AutoGitSyncRepo.timer>
+</BR>
 
 **_Note: `<FULL PATH to AutoGitSyncRepo.timer>` replace with full path of the location of AutoGitSyncRepo.timer as indicated in above step 09._**
 
@@ -206,6 +221,11 @@
 
 <img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/12.png?raw=true" width="500x"/>
 
+<mark> **Note: My full path to services  and timer is listed in image below: (FEDORA)** </mark>
+
+<img src="https://raw.githubusercontent.com/hpngithub/GitHubKB/main/Apps%20for%20Automation/GitSync/Images/13.Fedora.png?raw=true" width="500x"/>
+
+
 </BR>
 </BR>
 
@@ -221,3 +241,5 @@
 + ##### *_Ubuntu Systemd Unit : https://manpages.ubuntu.com/manpages/bionic/man5/systemd.unit.5.html_*
 + ##### *_Ubuntu Systemd timer : https://manpages.ubuntu.com/manpages/bionic/man5/systemd.timer.5.html_*
 + ##### *_Systemd Log File : https://stackoverflow.com/questions/37585758/how-to-redirect-output-of-systemd-service-to-a-file + https://www.baeldung.com/linux/redirect-systemd-output-to-file_*
++ ##### *_FEDORA (SystemLink) : https://unix.stackexchange.com/questions/194175/can-i-use-a-symbolic-link-as-a-service-of-systemd + https://unix.stackexchange.com/questions/271541/enabling-linked-unit-files-in-systemd_*
++ ##### *_FEDORA (Start Service) : https://nts.strzibny.name/systemd-user-services/_*
