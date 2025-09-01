@@ -1,7 +1,11 @@
 #!/bin/sh
 
 # Create the private public key command, replace <> with approriate informaton:
-$ ssh-keygen -t rsa -b 4096 -f /home/<YOURUSERNAME>/.ssh/Github>
+# OLD FYI ONLY = $ ssh-keygen -t rsa -b 4096 -f /home/<YOURUSERNAME>/.ssh/Github
+$ ssh-keygen -t ed25519 -C "YOUR EMAIL ADDRESS ASSOCIATE IN GITHUB ACCOUNT"
+
+#Then prompt provide save location with desire key name
+#Do not add passpharse, just typen enter
 
 # ls all the file in .ssh folder using below command:
 $ ls -all ~/.ssh/
